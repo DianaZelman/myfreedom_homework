@@ -1,12 +1,15 @@
 // 1
 
 
+
 for (let i = 0; i < 100; i++) {
     console.log(i * i);
 }
 
 
+
 // 2
+
 
 
 const users = [
@@ -28,6 +31,7 @@ for (let user of users){
 // 3
 
 
+
 const numbers = [1, 5, 10, 23, 76];
 
 function getMaxNumber() {
@@ -45,7 +49,9 @@ function getMaxNumber() {
 console.log(getMaxNumber());
 
 
+
 // 4
+
 
 
 const words = ['apple', 'iphone', 'book', 'flower'];
@@ -83,7 +89,6 @@ for (let td of document.body.children[0].children[0].children){
 }
 
 console.log(names);
-
 
 
 
