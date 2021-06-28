@@ -117,7 +117,6 @@ for (let i = 1960; i <= 2020; i++) {
 // 4.
 
 
-
 // let form = document.createElement('form')
 // form.setAttribute('id', 'form')
 // document.body.appendChild(form)
