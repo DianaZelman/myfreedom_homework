@@ -118,25 +118,25 @@ for (let i = 1960; i <= 2020; i++) {
 
 
 
-let form = document.createElement('form')
-form.setAttribute('id', 'form')
-document.body.appendChild(form)
+// let form = document.createElement('form')
+// form.setAttribute('id', 'form')
+// document.body.appendChild(form)
 
 
-let input = document.createElement('input')
-input.setAttribute('type', 'text')
-form.appendChild(input)
-input.addEventListener('keyup', showText)
+// let input = document.createElement('input')
+// input.setAttribute('type', 'text')
+// form.appendChild(input)
+// input.addEventListener('keyup', showText)
 
 
-let div = document.createElement('div')
-div.textContent = 'Клиент набирает:'
-form.appendChild(div)
+// let div = document.createElement('div')
+// div.textContent = 'Клиент набирает:'
+// form.appendChild(div)
 
-function showText() {
-    div.textContent += input.value
-    console.log(input.value)
-}
+// function showText() {
+//     div.textContent += input.value
+//     console.log(input.value)
+// }
 
 
 
