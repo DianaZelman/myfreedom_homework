@@ -10,7 +10,7 @@ function CreateKingdom(country, capital, population, area) {
 
 const countries = strCountries.split('; ').map(function(country) {return new CreateKingdom(...country.split(', ')); }); 
 
-const sum = (arr, value) => arr.reduce(function(accumulator, item) {return parseFloat(accumulator) + parseFloat(item[value]); }, 0);
+const sum = (arr, value) => arr.reduce(function(accumulator, item) {return accumulator + parseFloat(item[value]); }, 0);
 
 const kingdom = new CreateKingdom('Лонг Лендс', countries[1].capital, sum(countries, 'population'), sum(countries, 'area'));
 
