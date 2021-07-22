@@ -1,0 +1,21 @@
+.card {
+    width: 400px;
+    border: 1px solid black;
+    text-align: center;  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.kingdom {
+    font-size: 25px;
+    font-weight: bold;
+}
+.capital {
+    font-size: 18px;
+}
+.population {
+    font-size: 18px;
+}
+
+.area {
+    font-size: 18px;
+}
